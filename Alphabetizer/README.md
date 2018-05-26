@@ -16,6 +16,9 @@ Output:    "Eehlloprsw"
 
 Input:     "hello world"
 Output:    "Ehllo Dlorw"
+
+Input:     "hello, world!"
+Output:    "Ehllo Dlorw"
 ```
 
 ## Solution
@@ -29,6 +32,11 @@ Eehlloprsw
 
 ```PowerShell
 PS C:> .\Alphabetizer.ps1 -InputText "hello world"
+Ehllo Dlorw
+```
+
+```PowerShell
+PS C:> .\Alphabetizer.ps1 -InputText "hello, world!"
 Ehllo Dlorw
 ```
 
