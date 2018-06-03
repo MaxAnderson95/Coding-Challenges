@@ -115,11 +115,6 @@ Function Function10 {
     $CurrentYear = (Get-Date).year
     Do {
         $Leap = $False     
-        <#
-        If (($_ % 4) -eq 0 -or (($_ % 100) -eq 0 -and ($_ % 400 -ne 0))) {
-
-        }
-        #>
         If (($CurrentYear % 4) -eq 0) {         
             #Leap if divisible by 4
             $Leap = $True
