@@ -5,3 +5,5 @@ A PowerShell script that takes a given text file, and outputs a list of words an
 `.\Get-WordFrequency.ps1 -InputText Words.txt`
 
 ![](https://i.imgur.com/LIyJnKk.png)
+
+a change
